@@ -2,6 +2,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 # Copyright 2021, jacquet-pl <92673275+jacquet-pl@users.noreply.github.com>
 
+from .All_in_a_Single_Night import main as All_in_a_Single_Night
 from .Doesn_t_He_Have_Intern_Elves_For_This import main as Doesn_t_He_Have_Intern_Elves_For_This
 from .I_Was_Told_There_Would_Be_No_Math import main as I_Was_Told_There_Would_Be_No_Math
 from .Matchsticks import main as Matchsticks
@@ -21,5 +22,6 @@ solver_by_year_by_day = {
 		'6': Probably_a_Fire_Hazard,
 		'7': Some_Assembly_Required,
 		'8': Matchsticks,
+		'9': All_in_a_Single_Night,
 	},
 }
