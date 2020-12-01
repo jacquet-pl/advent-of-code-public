@@ -9,6 +9,7 @@ from .Matchsticks import main as Matchsticks
 from .Not_Quite_Lisp import main as Not_Quite_Lisp
 from .Perfectly_Spherical_Houses_in_a_Vacuum import main as Perfectly_Spherical_Houses_in_a_Vacuum
 from .Probably_a_Fire_Hazard import main as Probably_a_Fire_Hazard
+from .Report_Repair import main as Report_Repair
 from .Some_Assembly_Required import main as Some_Assembly_Required
 from .The_Ideal_Stocking_Stuffer import main as The_Ideal_Stocking_Stuffer
 
@@ -23,5 +24,8 @@ solver_by_year_by_day = {
 		'7': Some_Assembly_Required,
 		'8': Matchsticks,
 		'9': All_in_a_Single_Night,
+	},
+	'2020': {
+		'1': Report_Repair,
 	},
 }
