@@ -13,6 +13,7 @@ from .Probably_a_Fire_Hazard import main as Probably_a_Fire_Hazard
 from .Report_Repair import main as Report_Repair
 from .Some_Assembly_Required import main as Some_Assembly_Required
 from .The_Ideal_Stocking_Stuffer import main as The_Ideal_Stocking_Stuffer
+from .Toboggan_Trajectory import main as Toboggan_Trajectory
 
 solver_by_year_by_day = {
 	'2015': {
@@ -29,5 +30,6 @@ solver_by_year_by_day = {
 	'2020': {
 		'1': Report_Repair,
 		'2': Password_Philosophy,
+		'3': Toboggan_Trajectory,
 	},
 }
