@@ -6,6 +6,7 @@ from .All_in_a_Single_Night import main as All_in_a_Single_Night
 from .Binary_Boarding import main as Binary_Boarding
 from .Custom_Customs import main as Custom_Customs
 from .Doesn_t_He_Have_Intern_Elves_For_This import main as Doesn_t_He_Have_Intern_Elves_For_This
+from .Handy_Haversacks import main as Handy_Haversacks
 from .I_Was_Told_There_Would_Be_No_Math import main as I_Was_Told_There_Would_Be_No_Math
 from .Matchsticks import main as Matchsticks
 from .Not_Quite_Lisp import main as Not_Quite_Lisp
@@ -37,5 +38,6 @@ solver_by_year_by_day = {
 		'4': Passport_Processing,
 		'5': Binary_Boarding,
 		'6': Custom_Customs,
+		'7': Handy_Haversacks,
 	},
 }
