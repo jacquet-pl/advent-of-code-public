@@ -6,6 +6,7 @@ from .All_in_a_Single_Night import main as All_in_a_Single_Night
 from .Binary_Boarding import main as Binary_Boarding
 from .Custom_Customs import main as Custom_Customs
 from .Doesn_t_He_Have_Intern_Elves_For_This import main as Doesn_t_He_Have_Intern_Elves_For_This
+from .Encoding_Error import main as Encoding_Error
 from .Handheld_Halting import main as Handheld_Halting
 from .Handy_Haversacks import main as Handy_Haversacks
 from .I_Was_Told_There_Would_Be_No_Math import main as I_Was_Told_There_Would_Be_No_Math
@@ -41,5 +42,6 @@ solver_by_year_by_day = {
 		'6': Custom_Customs,
 		'7': Handy_Haversacks,
 		'8': Handheld_Halting,
+		'9': Encoding_Error,
 	},
 }
