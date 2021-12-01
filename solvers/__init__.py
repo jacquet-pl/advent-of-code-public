@@ -18,6 +18,7 @@ from .Perfectly_Spherical_Houses_in_a_Vacuum import main as Perfectly_Spherical_
 from .Probably_a_Fire_Hazard import main as Probably_a_Fire_Hazard
 from .Report_Repair import main as Report_Repair
 from .Some_Assembly_Required import main as Some_Assembly_Required
+from .Sonar_Sweep import main as Sonar_Sweep
 from .The_Ideal_Stocking_Stuffer import main as The_Ideal_Stocking_Stuffer
 from .Toboggan_Trajectory import main as Toboggan_Trajectory
 
@@ -43,5 +44,8 @@ solver_by_year_by_day = {
 		'7': Handy_Haversacks,
 		'8': Handheld_Halting,
 		'9': Encoding_Error,
+	},
+	'2021': {
+		'1': Sonar_Sweep,
 	},
 }
