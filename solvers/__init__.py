@@ -4,6 +4,7 @@
 
 from .All_in_a_Single_Night import main as All_in_a_Single_Night
 from .Binary_Boarding import main as Binary_Boarding
+from .Binary_Diagnostic import main as Binary_Diagnostic
 from .Custom_Customs import main as Custom_Customs
 from .Dive import main as Dive
 from .Doesn_t_He_Have_Intern_Elves_For_This import main as Doesn_t_He_Have_Intern_Elves_For_This
@@ -49,5 +50,6 @@ solver_by_year_by_day = {
 	'2021': {
 		'1': Sonar_Sweep,
 		'2': Dive,
+		'3': Binary_Diagnostic,
 	},
 }
