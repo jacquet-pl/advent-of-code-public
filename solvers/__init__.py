@@ -9,6 +9,7 @@ from .Custom_Customs import main as Custom_Customs
 from .Dive import main as Dive
 from .Doesn_t_He_Have_Intern_Elves_For_This import main as Doesn_t_He_Have_Intern_Elves_For_This
 from .Encoding_Error import main as Encoding_Error
+from .Giant_Squid import main as Giant_Squid
 from .Handheld_Halting import main as Handheld_Halting
 from .Handy_Haversacks import main as Handy_Haversacks
 from .I_Was_Told_There_Would_Be_No_Math import main as I_Was_Told_There_Would_Be_No_Math
@@ -51,5 +52,6 @@ solver_by_year_by_day = {
 		'1': Sonar_Sweep,
 		'2': Dive,
 		'3': Binary_Diagnostic,
+		'4': Giant_Squid,
 	},
 }
