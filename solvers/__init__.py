@@ -14,6 +14,7 @@ from .Handheld_Halting import main as Handheld_Halting
 from .Handy_Haversacks import main as Handy_Haversacks
 from .Hydrothermal_Venture import main as Hydrothermal_Venture
 from .I_Was_Told_There_Would_Be_No_Math import main as I_Was_Told_There_Would_Be_No_Math
+from .Lanternfish import main as Lanternfish
 from .Matchsticks import main as Matchsticks
 from .Not_Quite_Lisp import main as Not_Quite_Lisp
 from .Passport_Processing import main as Passport_Processing
@@ -55,5 +56,6 @@ solver_by_year_by_day = {
 		'3': Binary_Diagnostic,
 		'4': Giant_Squid,
 		'5': Hydrothermal_Venture,
+		'6': Lanternfish,
 	},
 }
