@@ -25,6 +25,7 @@ from .Report_Repair import main as Report_Repair
 from .Some_Assembly_Required import main as Some_Assembly_Required
 from .Sonar_Sweep import main as Sonar_Sweep
 from .The_Ideal_Stocking_Stuffer import main as The_Ideal_Stocking_Stuffer
+from .The_Treachery_of_Whales import main as The_Treachery_of_Whales
 from .Toboggan_Trajectory import main as Toboggan_Trajectory
 
 solver_by_year_by_day = {
@@ -57,5 +58,6 @@ solver_by_year_by_day = {
 		'4': Giant_Squid,
 		'5': Hydrothermal_Venture,
 		'6': Lanternfish,
+		'7': The_Treachery_of_Whales,
 	},
 }
