@@ -23,6 +23,7 @@ from .Perfectly_Spherical_Houses_in_a_Vacuum import main as Perfectly_Spherical_
 from .Probably_a_Fire_Hazard import main as Probably_a_Fire_Hazard
 from .Report_Repair import main as Report_Repair
 from .Seven_Segment_Search import main as Seven_Segment_Search
+from .Smoke_Basin import main as Smoke_Basin
 from .Some_Assembly_Required import main as Some_Assembly_Required
 from .Sonar_Sweep import main as Sonar_Sweep
 from .The_Ideal_Stocking_Stuffer import main as The_Ideal_Stocking_Stuffer
@@ -61,5 +62,6 @@ solver_by_year_by_day = {
 		'6': Lanternfish,
 		'7': The_Treachery_of_Whales,
 		'8': Seven_Segment_Search,
+		'9': Smoke_Basin,
 	},
 }
